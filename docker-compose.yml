@@ -24,8 +24,8 @@ services:
         #MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
         MYSQL_ROOT_PASSWORD: "root"
     volumes:
-      - "./mysql/config:/etc/mysql/conf.d"
-      - "./mysql/sqldump:/var/lib/mysql"
+      - "../sql/config:/etc/mysql/conf.d"
+      - "../sql/sqldump:/var/lib/mysql"
     
   
   
