@@ -15,10 +15,10 @@ module.exports = {
 //  docker 
 module.exports = {
 
-'dbName': process.env.DATABASE_NAME || 'pupf3h764kc87sic',
-'login':  process.env.DATABASE_USER || 'h0iku262vzw62dd8', 
-'password': process.env.DATABASE_PASSW || 'q3iuk3mzvh9813tc',
-'host': process.env.DATABASE_HOST || 'y0nkiij6humroewt.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+'dbName': process.env.DATABASE_NAME || 'heroku',
+'login':  process.env.DATABASE_USER || 'root', 
+'password': process.env.DATABASE_PASSW || 'bbtv99',
+'host': process.env.DATABASE_HOST || '104.155.108.185',
 'port': 3306,
 'dialect': 'mysql'
 

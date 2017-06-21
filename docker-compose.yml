@@ -13,7 +13,7 @@ services:
       - DATABASE_HOST=mysql
       - DATABASE_NAME=heroku
       - DATABASE_USER=root
-      - DATABASE_PASSW=root
+      - DATABASE_PASSW=bbtv99
 
 
   mysql:
