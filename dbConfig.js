@@ -18,7 +18,7 @@ module.exports = {
 'dbName': process.env.DATABASE_NAME || 'heroku',
 'login':  process.env.DATABASE_USER || 'root', 
 'password': process.env.DATABASE_PASSW || 'bbtv99',
-'host': process.env.DATABASE_HOST || '104.155.108.185',
+'host': process.env.DATABASE_HOST || '35.189.252.207',
 'port': 3306,
 'dialect': 'mysql'
 
